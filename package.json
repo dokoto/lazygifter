@@ -1,0 +1,18 @@
+{
+  "name": "lazygifter",
+  "version": "0.0.1",
+  "description": "Search lovely images and send to telegram",
+  "main": "./bin/lazygifter.js",
+  "bin": {
+    "gcs": "./bin/lazygifter.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manuel.alfaro.sierra@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot": "^0.1.9",
+    "request": "^2.79.0"
+  }
+}
