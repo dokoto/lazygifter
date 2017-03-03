@@ -2,9 +2,10 @@
   "name": "lazygifter",
   "version": "0.0.1",
   "description": "Search lovely images and send to telegram",
-  "main": "./bin/lazygifter.js",
+  "main": "./lib/lazygifterlib.js",
+  "preferGlobal": "true",
   "bin": {
-    "gcs": "./bin/lazygifter.js"
+    "lazygifter": "bin/lazygifter.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
