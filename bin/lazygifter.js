@@ -6,6 +6,10 @@ const Lazygifter = require('../lib/lazygifterlib.js');
 const ParamsManager = require('../lib/utils/paramsManager.js');
 
 let params = new ParamsManager();
-let lazygifter = new Lazygifter(params.get());
-
-lazygifter.run();
+let options = params.get();
+if (options.help) {
+    ParamsManager.help();
+} else {
+    let lazygifter = new Lazygifter(options);
+    lazygifter.run();
+}
