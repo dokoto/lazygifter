@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Lazygitfter test</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+
+    <body>
+        <div id="app-region" class="container">
+            <div id="query">
+                <h2><%= query %></h1>
+            </div>
+            <div id="images">
+                <%for (let i in items) {%>
+                    <img src="<%= items[i].link %>" alt="<%= items[i].title %>" height="<%= items[i].image.thumbnailHeight %>" width="<%= items[i].image.thumbnailWidth %>">
+                    <%}%>
+            </div>
+        </div>
+        <script type="text/javascript" src="../../SlideShow.js"></script>
+    </body>
+
+</html>
