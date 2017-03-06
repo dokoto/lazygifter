@@ -15,6 +15,7 @@ $> lazygifter --daemon
 $> lazygifter --send
 
 // Testing
+// --mocks=telegram : Generate a test/web/index.html
 $> lazygifter --mocks=query,response,telegram
 ```
 
