@@ -1,6 +1,11 @@
 'use strict';
 
 module.exports = {
+    'defaults': {
+        'params': {
+            q: 'lovesome gold deer kissing'
+        }
+    },
     'things': ["Chinese giant salamander", "Great crested newt", "Sagalla caecilian", "Purple frog", "Lemur leaf frog", "Panamanian golden frog",
         "Common toad", "Barbour’s forest tree frog", "Axolotl", "Titicaca water frog", "Mallorcan midwife toad", "Smooth newt", "Western leopard toad",
         "African reed frog", "Dyeing poison frog", "Golden toad", "Natterjack toad", "Tomato frog", "Pool frog", "Japanese giant salamander",
