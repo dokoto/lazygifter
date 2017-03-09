@@ -17,6 +17,7 @@
         "describe": true,
         "it": true,
         "Log": true,
-        "cordova": true
+        "cordova": true,
+        "global": true
     }
 }

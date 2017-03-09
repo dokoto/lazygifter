@@ -15,6 +15,7 @@
   "dependencies": {
     "node-telegram-bot": "^0.1.9",
     "node-usage": "0.0.3",
+    "pidusage": "^1.1.1",
     "request": "^2.79.0",
     "shelljs": "^0.7.6",
     "underscore": "^1.8.3"
